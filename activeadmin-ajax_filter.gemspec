@@ -20,7 +20,7 @@ Gem::Specification.new do |gem|
   gem.require_paths = ['lib']
 
   gem.add_dependency 'activeadmin', '>= 1.0'
-  gem.add_dependency 'rails', '>= 5.0'
+  gem.add_dependency 'railties', '>= 5.0'
   gem.add_dependency 'coffee-rails', '>= 4.1.0'
   gem.add_dependency 'selectize-rails', '>= 0.12.6'
   gem.add_dependency 'has_scope', '>= 0.6.0' # Force Ruby 2.1.5 support
